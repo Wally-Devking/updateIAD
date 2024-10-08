@@ -73,21 +73,20 @@
                     <img src="img/logo.png" alt="Logo" ;>
                 </a>
                 
-            <button button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-                    
+                <button class="navbar-toggler" id="navbarToggler">
+                 
                     <span class="fa fa-bars"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                    
+
+
+                <div class="navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav mx-auto py-0">
                         <a href="#home" class="nav-item nav-link active">Home</a>
                         <a href="#about" class="nav-item nav-link">About IAD</a>
-                        <a href="#who-we-are" class="nav-item nav-link">Who We Are</a>
-                        <!-- <a href="#pricing" class="nav-item nav-link">Pricing</a> -->
-                        <a href="#hot" class="nav-item nav-link">What's Hot</a>
+                        <a href="#who-we-are" class="nav-item nav-link">Who We Are!</a>
+                        <a href="#hot" class="nav-item nav-link">What's Hot?</a>
                         <a href="#contact" class="nav-item nav-link">Contact</a>
                     </div>
-
 <!-- light button -->
                     <div class="button-container">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 50">
@@ -102,10 +101,20 @@
                                 <rect class="light" width="100%" height="100%" fill="transparent" stroke-width="3" />
                             </g>
                         </svg>
-                        <a href="#" class="button">Visit Our Merch</a>
+                        <a href="#" class="button">Get Our Merch</a>
                     <!-- <a href="" class="btn rounded-pill py-2 px-4 ms-3 d-none d-lg-block" style="background-color:#c70606; color: white">Visit Our Merch</a> -->
                     </div>
                 </div>
+
+                <script>
+                    var navbarToggler = document.getElementById('navbarToggler');
+                    var navbarCollapse = document.getElementById('navbarCollapse');
+                
+                    // Function to toggle navbar menu on small screens
+                    navbarToggler.addEventListener('click', function () {
+                        navbarCollapse.classList.toggle('show');
+                    });
+                </script>
 
             </nav>
 
@@ -162,7 +171,7 @@
                     <section class="video-section">
                         <div class="video-wrap">
                             <video autoplay loop muted class="custom-video" poster="">
-                                <source src="/img/hero-banner.mp4" type="video/mp4">
+                                <source src="/img/sequence2.mp4" type="video/mp4">
                             </video>
                         </div>
                         <div class="hero-content"style="margin-top: 180px">
@@ -195,7 +204,7 @@
                     <section class="video-section">
                         <div class="video-wrap">
                             <video autoplay loop muted class="custom-video" poster="">
-                                <source src="/img/production_id_4774631 (720p).mp4" type="video/mp4">
+                                <source src="/img/Sequence.mp4" type="video/mp4">
                             </video>
                         </div>
                         <div class="hero-content"style="margin-top: 180px">
@@ -253,10 +262,10 @@
             <div class="container py-5 px-lg-5">
                 <div class="row g-5 align-items-center">
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <h2 class="text-primary-gradient fw-medium">About u</h2>
-                        <h1 class="mb-4" style="color:white"> Everything you imagine is real.</h1>
+                        <!-- <h2 class="text-primary-gradient fw-medium">About Us</h2> -->
+                        <h1 class="mb-4" style="color:white">Everything you imagine is real</h1>
                         <p class="mb-4">
-                            We’ve built a fashion forward, creative and entertainment powerhouse focused on giving people a chance to be their best selves in infinitely exciting ways. 
+                            We’re a fashion forward, creative and entertainment powerhouse focused on giving people a chance to be their best selves in infinitely exciting ways. It’s time to explore you like never before.
                             </p>
                             
                         <!-- <div class="row g-4 mb-4">
@@ -282,158 +291,15 @@
                         <!-- <a href="" class="btn btn-primary-gradient py-sm-3 px-4 px-sm-5 rounded-pill mt-3">Read More</a> -->
                     </div>
                     <div class="col-lg-6">
-                        <img class="img-fluid wow fadeInUp" data-wow-delay="0.5s" src="img/about.png">
+                        <img class="img-fluid wow fadeInUp" data-wow-delay="0.5s" src="img/cloud.png">
                     </div>
                 </div>
             </div>
         </div>
         <!-- About End -->
-     
-      
-              
-
-     
+    
         
         
-        
-           
-
-
-
-
-        <!-- Features Start -->
-        <!-- <div class="container-xxl py-5" id="feature">
-            <div class="container "> -->
-                <!-- <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                    <h5 class="text-primary-gradient fw-medium">Who We Are</h5>
-                    <h1 class="mb-5"> We are the Culture</h1>
-                </div>
-                <div class="row g-4">
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="feature-item bg-light rounded p-4"> -->
-                            <!-- <div class="d-inline-flex align-items-center justify-content-center ">
-                                <i class="fa fa-eye text-white fs-4"></i>
-                            </div>
-                            <h5 class="mb-3">We’re more than just a collective; we’re a community. We celebrate diversity, creativity, and the power of youth. Our platform is a space where you can connect with like-minded individuals who share your passion for self-expression and originality.</p>
-                        </div>
-                    </div> -->
-                    <!-- <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                        <div class="feature-item bg-light rounded p-4">
-                            <div class="d-inline-flex align-items-center justify-content-center bg-secondary-gradient rounded-circle mb-4" style="width: 60px; height: 60px;">
-                                <i class="fa fa-layer-group text-white fs-4"></i>
-                            </div>
-                            <h5 class="mb-3">Ready Wears</h5>
-                            <p class="m-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                        <div class="feature-item bg-light rounded p-4">
-                            <div class="d-inline-flex align-items-center justify-content-center bg-primary-gradient rounded-circle mb-4" style="width: 60px; height: 60px;">
-                                <i class="fa fa-edit text-white fs-4"></i>
-                            </div>
-                            <h5 class="mb-3">Wallys Fashion Kits</h5>
-                            <p class="m-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="feature-item bg-light rounded p-4">
-                            <div class="d-inline-flex align-items-center justify-content-center bg-secondary-gradient rounded-circle mb-4" style="width: 60px; height: 60px;">
-                                <i class="fa fa-shield-alt text-white fs-4"></i>
-                            </div>
-                            <h5 class="mb-3">Fully Clothed</h5>
-                            <p class="m-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                        <div class="feature-item bg-light rounded p-4">
-                            <div class="d-inline-flex align-items-center justify-content-center bg-primary-gradient rounded-circle mb-4" style="width: 60px; height: 60px;">
-                                <i class="fa fa-cloud text-white fs-4"></i>
-                            </div>
-                            <h5 class="mb-3">High Fashion Events</h5>
-                            <p class="m-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                        <div class="feature-item bg-light rounded p-4">
-                            <div class="d-inline-flex align-items-center justify-content-center bg-secondary-gradient rounded-circle mb-4" style="width: 60px; height: 60px;">
-                                <i class="fa fa-mobile-alt text-white fs-4"></i>
-                            </div>
-                            <h5 class="mb-3">Fully Colored</h5>
-                            <p class="m-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        Features End -->
-
-
-        <!-- Screenshot Start -->
-        <!-- <div class="container-xxl py-5">
-            <div class="container py-5 px-lg-5">
-                <div class="row g-5 align-items-center">
-                    <div class="col-lg-8 wow fadeInUp" data-wow-delay="0.1s">
-                        <h5 class="text-primary-gradient fw-medium">Screenshot</h5>
-                        <h1 class="mb-4">User Friendly interface And Very Easy To Use Fitness App</h1>
-                        <p class="mb-4">Diam dolor diam ipsum et tempor sit. Aliqu diam amet diam et eos labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit clita duo justo eirmod magna dolore erat amet</p>
-                        <p><i class="fa fa-check text-primary-gradient me-3"></i>Diam dolor diam ipsum et tempor sit</p>
-                        <p><i class="fa fa-check text-primary-gradient me-3"></i>Aliqu diam amet diam et eos labore</p>
-                        <p class="mb-4"><i class="fa fa-check text-primary-gradient me-3"></i>Clita erat ipsum et lorem et sit</p>
-                        <a href="" class="btn btn-primary-gradient py-sm-3 px-4 px-sm-5 rounded-pill mt-3">Read More</a>
-                    </div>
-                    <div class="col-lg-4 d-flex justify-content-center justify-content-lg-end wow fadeInUp" data-wow-delay="0.3s">
-                        <div class="owl-carousel screenshot-carousel">
-                            <img class="img-fluid" src="img/screenshot-1.png" alt="">
-                            <img class="img-fluid" src="img/screenshot-2.png" alt="">
-                            <img class="img-fluid" src="img/screenshot-3.png" alt="">
-                            <img class="img-fluid" src="img/screenshot-4.png" alt="">
-                            <img class="img-fluid" src="img/screenshot-5.png" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> -->
-        <!-- Screenshot End -->
-
-
-        <!-- Process Start -->
-        <!-- <div class="container-xxl py-5">
-            <div class="container py-5 px-lg-5">
-                <div class="text-center pb-4 wow fadeInUp" data-wow-delay="0.1s">
-                    <h5 class="text-primary-gradient fw-medium">How It Works</h5>
-                    <h1 class="mb-5">3 Easy Steps</h1>
-                </div>
-                <div class="row gy-5 gx-4 justify-content-center">
-                    <div class="col-lg-4 col-sm-6 text-center pt-4 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="position-relative bg-light rounded pt-5 pb-4 px-4">
-                            <div class="d-inline-flex align-items-center justify-content-center bg-primary-gradient rounded-circle position-absolute top-0 start-50 translate-middle shadow" style="width: 100px; height: 100px;">
-                                <i class="fa fa-cog fa-3x text-white"></i>
-                            </div>
-                            <h5 class="mt-4 mb-3">Install the App</h5>
-                            <p class="mb-0">Tempor erat elitr rebum clita dolor diam ipsum sit diam amet diam eos erat ipsum et lorem et sit sed stet</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 text-center pt-4 wow fadeInUp" data-wow-delay="0.3s">
-                        <div class="position-relative bg-light rounded pt-5 pb-4 px-4">
-                            <div class="d-inline-flex align-items-center justify-content-center bg-secondary-gradient rounded-circle position-absolute top-0 start-50 translate-middle shadow" style="width: 100px; height: 100px;">
-                                <i class="fa fa-address-card fa-3x text-white"></i>
-                            </div>
-                            <h5 class="mt-4 mb-3">Setup Your Profile</h5>
-                            <p class="mb-0">Tempor erat elitr rebum clita dolor diam ipsum sit diam amet diam eos erat ipsum et lorem et sit sed stet</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 text-center pt-4 wow fadeInUp" data-wow-delay="0.5s">
-                        <div class="position-relative bg-light rounded pt-5 pb-4 px-4">
-                            <div class="d-inline-flex align-items-center justify-content-center bg-primary-gradient rounded-circle position-absolute top-0 start-50 translate-middle shadow" style="width: 100px; height: 100px;">
-                                <i class="fa fa-check fa-3x text-white"></i>
-                            </div>
-                            <h5 class="mt-4 mb-3">Enjoy The Features</h5>
-                            <p class="mb-0">Tempor erat elitr rebum clita dolor diam ipsum sit diam amet diam eos erat ipsum et lorem et sit sed stet</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> -->
 
         <!-- Download Start -->
         <div class="container-xxl py-5" id="who-we-are" style="background: linear-gradient(to right bottom, var(--dark)
@@ -441,46 +307,90 @@
             <div class="container py-5 px-lg-5">
                 <div class="row g-5 align-items-center">
                     <div class="col-lg-6">
-                        <img class="img-fluid wow fadeInUp" data-wow-delay="0.1s" src="img/about.png">
+                        <img class="img-fluid wow fadeInDown zoom-in-image" data-wow-delay="0.1s" src="img/back.png">
                     </div>
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.7s">
                         <!-- <h5 class="text-primary-gradient fw-medium" >Who We Are!</h5> -->
                         <h1 class="mb-4"style="color: white">We are the Culture. </h1>
-                        <p class="mb-4">We are more than just a collective; we are a community. We celebrate diversity, creativity, and the power of youth. Our platform is a space where you can connect with like-minded individuals who share your passion for self-expression and originality. </p>
+                        <p class="mb-4">We’re more than just a collective; we’re a community. We celebrate diversity, creativity, and the power of youth. Our platform is a space where you can connect with like-minded individuals who share your passion for self-expression and originality.  </p>
 
-                        <h5 style="color:white">Legacy. Steeze. All that good stuff.Real recognizes real. We will always acknowledge brilliance in motion.</h5>
 
-                        <!-- <div class="row g-4">
-                            <div class="col-sm-6 wow fadeIn" data-wow-delay="0.5s"> -->
-                                <!-- <a href="" class="d-flex bg-primary-gradient rounded py-3 px-4">
-                                    <i class="fab fa-apple fa-3x text-white flex-shrink-0"></i>
-                                    <div class="ms-3">
-                                        <p class="text-white mb-0">Available On</p>
-                                        <h5 class="text-white mb-0">App Store</h5>
-                                    </div>
-                                </a> -->
-                            <!-- </div>
-                            <div class="col-sm-6 wow fadeIn" data-wow-delay="0.7s">
-                                <a href="" class="d-flex bg-secondary-gradient rounded py-3 px-4">
-                                    <i class="fab fa-android fa-3x text-white flex-shrink-0"></i>
-                                    <div class="ms-3">
-                                        <p class="text-white mb-0">Available On</p>
-                                        <h5 class="text-white mb-0">Play Store</h5>
-                                    </div>
-                                </a>
-                            </div> -->
+                    <style>
+
+                        .zoom-in-image {
+                            transition: transform 0.9s ease-in-out; /* Slower return when the cursor is removed */
+                        }
+                        
+                        /* Zoom-out effect on hover */
+                        .zoom-in-image:hover {
+                            transform: scale(0.9); /* Zoom out by 10% */
+                            transition: transform 0.9s ease-in-out; /* Faster zoom-out on hover */
+                        }
+                       
+                        </style>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Download End -->
+
+        <!-- steeze section -->
+        <div class="container-xxl py-5" id="who-we-are" style="background: linear-gradient(to left top, var(--dark)
+        , black);">
+            <div class="container py-5 px-lg-5">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <h2 class="text-primary-gradient fw-medium"></h2>
+                        <h1 class="mb-4" style="color:white">Legacy. Steeze. All that good stuff.</h1>
+                        <p>
+                            Real recognizes real. We will always acknowledge brilliance in motion and stand firm for everyone putting in the work with each passing day. We believe the journey should be as memorable as the achievement of any milestone and we will never stop being your cheerleader.
+                        </p>
+              
+                        <style>
+/* Default zoom-in effect (image fits in the container but zoomed) */
+.zoom-in-image {
+    transform: scale(1.1) ; /* Zoom in by 20%, but contained within the boundaries */
+    transition: transform 0.9s ease-in-out; 
+    object-fit: contain; 
+    overflow:hidden;
+    border-radius: 20px;
+    width: 100%; 
+    height: 100%; 
+}
+
+/* On hover, the image returns to its normal size */
+.zoom-in-image:hover {
+    transform: scale(1); /* Return to normal size */
+    transition: transform 0.9s ease-in-out; 
+    overflow:hidden;
+    object-fit: contain; 
+    width: 100%; 
+    height: 100%; 
+
+
+}                           
+                            </style>
+                
+                    </div>
+                    <div class="col-lg-6" > <!-- data-wow-delay="0.1s" style="border-radius: 20px; background:
+        linear-gradient(to bottom,rgba(247, 248, 248, 0.824) 50%, rgba(192, 203, 203, 0.913) 100%);"> -->
+
+
+                        <img class="img-fluid wow fadeInDown zoom-in-image" data-wow-delay="0.1s"  src="img/3person.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+     
+                   <!-- Download End -->
         <!-- Pricing Start -->
-        <div class="container-xxl py-5" id="pricing" style="background: linear-gradient(to left bottom, black
-        , #312e27)" >
+        <div class="container-xxl py-5" id="pricing" style="background: url('/img/dark.jpeg') no-repeat center center/cover;">
+
+
             <div class="container py-5 px-lg-5" id="hot">
                 <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                    <h5 class="text-primary-gradient fw-medium">What's Hot?</h5>
+                    <!-- <h5 class="text-primary-gradient fw-medium">What's Hot?</h5> -->
                     <h1 class="mb-5" style="color:white">New Drops </h1>
                 </div>
             </div>
@@ -489,7 +399,7 @@
                         <div class="row g-4">
                             <!-- First column -->
                             <div class="col-lg-3 col-md-6">
-                                <div class="bg-light rounded" style="box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+                                <div class="glass-container rounded">
                                     <div class="border-bottom p-4 mb-4">
                                         <h4 class="text-primary-gradient mb-1">Merch</h4>
                                         <span>Coming Soon...</span>
@@ -519,10 +429,14 @@
                                     </div>
                                 </div>
                             </div>
+
+                
+                            
+                            
                 
                             <!-- Second column -->
                             <div class="col-lg-3 col-md-6">
-                                <div class="bg-light rounded" style="box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+                                <div class="glass-container rounded">
                                     <div class="border-bottom p-4 mb-4">
                                         <h4 class="text-primary-gradient mb-1">Pop-up Party</h4>
                                         <span>Coming Soon...</span>
@@ -546,7 +460,9 @@
                                                     <rect class="light" width="100%" height="100%" fill="transparent" stroke-width="3" />
                                                 </g>
                                             </svg>
-                                            <a href="#" class="button">Get Yours</a>
+                                            <div>
+                                                <a href="#"class="button">Get Yours</a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -554,9 +470,9 @@
                 
                             <!-- Third column -->
                             <div class="col-lg-3 col-md-6">
-                                <div class="bg-light rounded" style="box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+                                <div class="glass-container rounded">
                                     <div class="border-bottom p-4 mb-4">
-                                        <h4 class="text-primary-gradient mb-1">Comic Book Release</h4>
+                                        <h4 class="text-primary-gradient mb-1">Pop-up Party</h4>
                                         <span>Coming Soon...</span>
                                     </div>
                 
@@ -586,7 +502,7 @@
                 
                             <!-- Fourth column -->
                             <div class="col-lg-3 col-md-6">
-                                <div class="bg-light rounded" style="box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+                                <div class="glass-container rounded">
                                     <div class="border-bottom p-4 mb-4">
                                         <h4 class="text-primary-gradient mb-1">Merch</h4>
                                         <span>Coming Soon...</span>
@@ -618,85 +534,6 @@
                         </div>
                     </div>
                 </div>
-
-        <!-- Testimonial Start -->
-        <!-- < class="container-xxl py-5" id="review">
-            <div class="container py-5 px-lg-5">
-                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                    <h5 class="text-primary-gradient fw-medium">Testimonial</h5>
-                    <h1 class="mb-5">What Say Our Clients!</h1>
-                </div>
-                <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="testimonial-item rounded p-4">
-                        <div class="d-flex align-items-center mb-4">
-                            <img class="img-fluid bg-white rounded flex-shrink-0 p-1" src="img/testimonial-1.jpg" style="width: 85px; height: 85px;">
-                            <div class="ms-4">
-                                <h5 class="mb-1">Client Name</h5>
-                                <p class="mb-1">Profession</p>
-                                <div>
-                                    <small class="fa fa-star text-warning"></small>
-                                    <small class="fa fa-star text-warning"></small>
-                                    <small class="fa fa-star text-warning"></small>
-                                    <small class="fa fa-star text-warning"></small>
-                                    <small class="fa fa-star text-warning"></small>
-                                </div>
-                            </div>
-                        </div>
-                        <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
-                    </div>
-                    <div class="testimonial-item rounded p-4">
-                        <div class="d-flex align-items-center mb-4">
-                            <img class="img-fluid bg-white rounded flex-shrink-0 p-1" src="img/testimonial-2.jpg" style="width: 85px; height: 85px;">
-                            <div class="ms-4">
-                                <h5 class="mb-1">Client Name</h5>
-                                <p class="mb-1">Profession</p>
-                                <div>
-                                    <small class="fa fa-star text-warning"></small>
-                                    <small class="fa fa-star text-warning"></small>
-                                    <small class="fa fa-star text-warning"></small>
-                                    <small class="fa fa-star text-warning"></small>
-                                    <small class="fa fa-star text-warning"></small>
-                                </div>
-                            </div>
-                        </div>
-                        <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
-                    </div>
-                    <div class="testimonial-item rounded p-4">
-                        <div class="d-flex align-items-center mb-4">
-                            <img class="img-fluid bg-white rounded flex-shrink-0 p-1" src="img/testimonial-3.jpg" style="width: 85px; height: 85px;">
-                            <div class="ms-4">
-                                <h5 class="mb-1">Client Name</h5>
-                                <p class="mb-1">Profession</p>
-                                <div>
-                                    <small class="fa fa-star text-warning"></small>
-                                    <small class="fa fa-star text-warning"></small>
-                                    <small class="fa fa-star text-warning"></small>
-                                    <small class="fa fa-star text-warning"></small>
-                                    <small class="fa fa-star text-warning"></small>
-                                </div>
-                            </div>
-                        </div>
-                        <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
-                    </div>
-                    <div class="testimonial-item rounded p-4">
-                        <div class="d-flex align-items-center mb-4">
-                            <img class="img-fluid bg-white rounded flex-shrink-0 p-1" src="img/testimonial-4.jpg" style="width: 85px; height: 85px;">
-                            <div class="ms-4">
-                                <h5 class="mb-1">Client Name</h5>
-                                <p class="mb-1">Profession</p>
-                                <div>
-                                    <small class="fa fa-star text-warning"></small>
-                                    <small class="fa fa-star text-warning"></small>
-                                    <small class="fa fa-star text-warning"></small>
-                                    <small class="fa fa-star text-warning"></small>
-                                    <small class="fa fa-star text-warning"></small>
-                                </div>
-                            </div>
-                        </div>
-                        <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
-                    </div>
-                </div>
-            </div>-->
         
         <!-- Testimonial End -->
 
@@ -705,8 +542,8 @@
         <div class="container-xxl py-5" id="contact">
             <div class="container py-5 px-lg-5">
                 <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                    <h5 class="text-primary-gradient fw-medium">We don’t bite</h5>
-                    <h1 class="mb-5" style="color:white">Slide Into Our DMs</h1>
+                    <h1 class= "fw-bold" style="color:white">Slide Into Our DMs</h1>
+                    <h5 class="mb-5 text-primary-gradient " >We don't bite</h5>
                 </div>
                 <div class="row justify-content-center">
                     <div class="col-lg-9">
@@ -785,7 +622,7 @@
                     </div>
                     <div class="col-md-6 col-lg-3">
                         <h4 class="text-white mb-4">Quick Link</h4>
-                        <a class="btn btn-link" href="#about">About Us</a>
+                        <a class="btn btn-link" href="#about">About</a>
                         <a class="btn btn-link" href="#contact">Contact Us</a>
                         <a class="btn btn-link" href="#">Merch Store</a>
 
@@ -856,9 +693,48 @@
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
 
     
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+    let currentSectionIndex = 0;
+    const sections = document.querySelectorAll('.section');
+    const totalSections = sections.length;
 
+    // Handle scrolling with keyboard (Arrow Keys) and Mouse Wheel
+    window.addEventListener('wheel', handleScroll);
+    window.addEventListener('keydown', handleKeyPress);
+
+    function handleScroll(event) {
+        if (event.deltaY > 0) {
+            // Scrolling down
+            currentSectionIndex = (currentSectionIndex + 1) % totalSections;
+        } else {
+            // Scrolling up
+            currentSectionIndex = (currentSectionIndex - 1 + totalSections) % totalSections;
+        }
+        scrollToSection(currentSectionIndex);
+    }
+
+    function handleKeyPress(event) {
+        if (event.key === 'ArrowDown') {
+            currentSectionIndex = (currentSectionIndex + 1) % totalSections;
+        } else if (event.key === 'ArrowUp') {
+            currentSectionIndex = (currentSectionIndex - 1 + totalSections) % totalSections;
+        }
+        scrollToSection(currentSectionIndex);
+    }
+
+    function scrollToSection(index) {
+        sections[index].scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+        });
+    }
+});
+</script>
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+
+
 </body>
 
 </html>
